@@ -40,9 +40,10 @@ The Rate Matrix Engine leverages set-based Cartesian (`CROSS JOIN`) products to 
        │
        ▼
 [Multiplicative Output Grid]
-
-Architectural Mechanics:
-Set-Based Matrix Multiplication: Produces an exhaustive M \times N \times K pricing universe in a single scan.
-Deterministic Price Aggregation: Computes (base_rate * season_multiplier) + amenity_fee inline.
-Zero Data Loss: Guarantees all valid hospitality inventory permutations are populated into downstream booking engines.
 ```
+### Architectural Mechanics:
+Set-Based Matrix Multiplication: Produces an exhaustive M \times N \times K pricing universe in a single scan.
+### Deterministic Price Aggregation: 
+Computes (base_rate * season_multiplier) + amenity_fee inline.
+### Zero Data Loss: 
+Guarantees all valid hospitality inventory permutations are populated into downstream booking engines.
